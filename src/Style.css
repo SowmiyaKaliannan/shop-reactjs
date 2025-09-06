@@ -1,0 +1,24 @@
+.header {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+  }
+  
+  .footer {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .search-bar input {
+    width: 250px;
+  }
+  
+  .cart-icon button {
+    position: relative;
+  }
+  
+  .cart-icon .badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+  }
+  
