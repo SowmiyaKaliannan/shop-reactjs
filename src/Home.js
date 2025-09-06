@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import Footer from './Footer'; 
 
 const allProducts = [
-  { id: 1, name: 'Laptop', price: 1000, category: 'Electronics', description: 'A powerful laptop for work and play.', imageUrl: '/images/laptop.png' },
+  { id: 1, name: 'Laptop', price: 1000, category: 'Electronics', description: 'A powerful laptop for work and play.', imageUrl: '/shop-reactjs /images/laptop.png' },
   { id: 2, name: 'Phone', price: 500, category: 'Electronics', description: 'A smartphone with all the latest features.', imageUrl: '/images/phone.png' },
   { id: 3, name: 'Headphones', price: 150, category: 'Electronics', description: 'Noise-canceling headphones for ultimate sound.', imageUrl: '/images/headphones.png' },
   { id: 4, name: 'T-shirt', price: 25, category: 'Apparel', description: 'Comfortable cotton t-shirt.', imageUrl: '/images/tshirt.png' },
@@ -127,3 +127,4 @@ function Home() {
 }
 
 export default Home;
+
