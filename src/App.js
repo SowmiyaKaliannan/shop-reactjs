@@ -19,7 +19,7 @@ import Cart from './Cart';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/shop-reactjs">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
