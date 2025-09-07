@@ -20,7 +20,7 @@ import Cart from './Cart';
 function App() {
   return (
     <Router basename="/shop-reactjs">
-      <Routes>
+      <Routes basename="/shop-reactjs">
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/about" element={<About />} />
